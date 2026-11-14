@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9fdbf198-7ed6-4bc7-ba3d-a65820f8cb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{905cc06b-a06e-4166-8f35-316163ffd7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{6b2276e1-9200-42be-bebd-b50e0add5545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="diagrams">
+      <UniqueIdentifier>{bddcf0eb-1f56-47a6-ad5d-85b6c61b98f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="report">
+      <UniqueIdentifier>{2dd756cf-530e-4e34-b944-b1274f1435f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{fba3bb28-2f19-4c37-9cd3-84428f5ec0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server">
+      <UniqueIdentifier>{27a4c0ef-7764-41d8-bdc1-7291efdb4ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{c942c17b-b7a6-4733-a84d-c4035ed22298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.hpp">
+      <Filter>src\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server.cpp">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="experiment_data.csv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="plot_graphs.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="sequence.md">
+      <Filter>diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>
