@@ -22,32 +22,26 @@
     <Filter Include="src\server">
       <UniqueIdentifier>{27a4c0ef-7764-41d8-bdc1-7291efdb4ced}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\client">
-      <UniqueIdentifier>{c942c17b-b7a6-4733-a84d-c4035ed22298}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common.hpp">
+    <ClCompile Include="src\server\server.cpp">
+      <Filter>src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\common.hpp">
       <Filter>src\common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="server.cpp">
-      <Filter>src\server</Filter>
-    </ClCompile>
-    <ClCompile Include="client.cpp">
-      <Filter>src\client</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="experiment_data.csv">
-      <Filter>data</Filter>
-    </None>
-    <None Include="plot_graphs.py">
+    <None Include="scripts\plot_graphs.py">
       <Filter>scripts</Filter>
     </None>
-    <None Include="sequence.md">
+    <None Include="diagrams\sequence.md">
       <Filter>diagrams</Filter>
+    </None>
+    <None Include="data\experiment_data.csv">
+      <Filter>data</Filter>
     </None>
   </ItemGroup>
 </Project>
