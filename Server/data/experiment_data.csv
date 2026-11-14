@@ -1,0 +1,5 @@
+Configuration,BlockSize_B,Cycles,Run1_ms,Run2_ms,Run3_ms,AvgTime_ms,AvgRTT_ms,Throughput_MBps,Errors
+Config A,64,100,10.07,10.99,12.54,11.20,0.1120,1.10,0
+Config B,64,500,55.07,51.50,55.65,54.08,0.1082,1.13,0
+Config C,4096,100,364.44,248.73,318.04,310.40,3.1040,2.58,0
+Config D,4096,500,1225.11,1518.14,1782.19,1508.48,3.0170,2.65,0
